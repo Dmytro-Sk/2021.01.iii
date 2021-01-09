@@ -1,0 +1,9 @@
+https://www.upwork.com/ab/jobs/search/details/~014fea3712783ee877/?page=9&q=scrape&sort=recency
+
+- I need to extract all of the restaurant names on this list https://glovoapp.com/es
+
+- Restaurants are spread across pages selectable by the dropdown menu in (1)
+- Before accessing the restaurants, there is one more button to be clicked as in (2)
+- All the restaurants are shown as in (3)
+
+- Deliverables: Excel file containing all restaurant names differentiated by city.

@@ -1,0 +1,35 @@
+------------------ GET LOCATORS ------------------
+
+RESTAURANT_NAME = ''
+CITY = ''
+LINK = ''
+
+
+-------------- GET CUSTOM SETTINGS ---------------
+
+'restaurant_name',
+'city',
+'link',
+
+
+--------------- GET PARSE ELEMENTS ---------------
+
+restaurant_name = response.xpath(Locators.RESTAURANT_NAME).get()
+city = response.xpath(Locators.CITY).get()
+link = response.xpath(Locators.LINK).get()
+
+
+------------ GET PARSE ITEMS ELEMENTS ------------
+
+items['restaurant_name'] = restaurant_name
+items['city'] = city
+items['link'] = link
+
+
+------------------- GET ITEMS --------------------
+
+restaurant_name = scrapy.Field()
+city = scrapy.Field()
+link = scrapy.Field()
+
+
