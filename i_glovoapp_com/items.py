@@ -7,6 +7,8 @@ import scrapy
 
 
 class GlovoappComRestaurantsItem(scrapy.Item):
-    restaurant_name = scrapy.Field()
+    code = scrapy.Field()
     city = scrapy.Field()
-    link = scrapy.Field()
+    city_restaurants_url = scrapy.Field()
+    restaurant_name = scrapy.Field()
+    restaurant_url = scrapy.Field()
